@@ -1,9 +1,6 @@
-<!-- section hero -->
-
 <section class="hero" id="hero">
   <div class="container hero-container">
     <div class="hero-main-wrap">
-      <!-- hero left -->
       <div class="hero-left-wrap">
         <h1 class="hero-hdr">
           Welcome to our <span>collection</span> of premium watches
@@ -14,10 +11,7 @@
           have a watch to suit every taste and occasion.
         </p>
       </div>
-
-      <!-- hero right -->
       <div class="hero-right-wrap">
-        <!-- hero person-1 -->
         <div class="hero-person hero-person-1">
           <picture>
             <source
@@ -34,18 +28,16 @@
                 /img/people/1/person-1-tab@2x.png 2x
               "
             />
-            <img
-              src="/img/people/1/person-1-mob.png"
+            <source
+              media="(max-width: 767px)"
               srcset="
                 /img/people/1/person-1-mob.png    1x,
                 /img/people/1/person-1-mob@2x.png 2x
               "
-              alt="Person 1"
             />
+            <img src="/img/people/1/person-1-mob.png" alt="Person 1" />
           </picture>
         </div>
-
-        <!-- hero person-2 -->
         <div class="hero-person hero-person-2">
           <picture>
             <source
@@ -62,18 +54,16 @@
                 /img/people/2/person-2-tab@2x.png 2x
               "
             />
-            <img
-              src="/img/people/2/person-2-mob.png"
+            <source
+              media="(max-width: 767px)"
               srcset="
                 /img/people/2/person-2-mob.png    1x,
                 /img/people/2/person-2-mob@2x.png 2x
               "
-              alt="Person 2"
             />
+            <img src="/img/people/2/person-2-mob.png" alt="Person 2" />
           </picture>
         </div>
-
-        <!-- hero person-3 -->
         <div class="hero-person hero-person-3">
           <picture>
             <source
@@ -90,21 +80,35 @@
                 /img/people/3/person-3-tab@2x.png 2x
               "
             />
-            <img
-              src="/img/people/3/person-3-mob.png"
+            <source
+              media="(max-width: 767px)"
               srcset="
                 /img/people/3/person-3-mob.png    1x,
                 /img/people/3/person-3-mob@2x.png 2x
               "
-              alt="Person 3"
             />
+            <img src="/img/people/3/person-3-mob.png" alt="Person 3" />
           </picture>
         </div>
         <a class="hero-link hero-transition" href="#footer">Scroll down</a>
       </div>
     </div>
-
-    <!-- hero down-->
-    <div class="hero-img-wrap"></div>
+    <div class="hero-img-wrap">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/img/hero/hero-desk.png 1x, /img/hero/hero-desk@2x.png 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/img/hero/hero-tab.png 1x, /img/hero/hero-tab@2x.png 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/img/hero/hero-mob.png 1x, /img/hero/hero-mob@2x.png 2x"
+        />
+        <img src="/img/hero/hero-mob.png" alt="Person 1" />
+      </picture>
+    </div>
   </div>
 </section>
