@@ -12,7 +12,7 @@ export default defineConfig(({ command }) => {
     root: 'src', // твої файли у src/
     base: '/watchcharm/', // ДОДАНО базовий шлях для GitHub Pages!
     build: {
-      sourcemap: true,
+      sourcemap: false,
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
