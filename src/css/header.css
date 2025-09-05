@@ -76,7 +76,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url(/img/header/menu-bg-mob.png);
+    url(../img/header/menu-bg-mob.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -86,7 +86,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/img/header/menu-bg-mob@2x.png);
+      url(../img/header/menu-bg-mob@2x.png);
   }
 
   transform: translateX(100%);
@@ -238,14 +238,14 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url(/img/header/menu-bg-tab.png);
+      url(../img/header/menu-bg-tab.png);
 
     @media screen and (min-resolution: 192dpi) {
       background-image: linear-gradient(
           rgba(12, 12, 12, 0.92),
           rgba(12, 12, 12, 0.92)
         ),
-        url(/img/header/menu-bg-tab@2x.png);
+        url(../img/header/menu-bg-tab@2x.png);
     }
   }
 

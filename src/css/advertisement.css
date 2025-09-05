@@ -7,7 +7,7 @@
   border-radius: 30px;
   padding: 60px 28px;
   background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-    url(/img/advertisement/advertisement-mob.png);
+    url(../img/advertisement/advertisement-mob.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -16,7 +16,7 @@
 
   @media screen and (min-resolution: 192dpi) {
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-      url(/img/advertisement/advertisement-mob@2x.png);
+      url(../img/advertisement/advertisement-mob@2x.png);
   }
 }
 
@@ -60,11 +60,11 @@
     gap: 32px;
     padding: 80px 64px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-      url(/img/advertisement/advertisement-tab.png);
+      url(../img/advertisement/advertisement-tab.png);
 
     @media screen and (min-resolution: 192dpi) {
       background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-        url(/img/advertisement/advertisement-tab@2x.png);
+        url(../img/advertisement/advertisement-tab@2x.png);
     }
   }
 
@@ -80,11 +80,11 @@
     justify-content: space-between;
     padding: 83px 80px;
     background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-      url(/img/advertisement/advertisement-desk.png);
+      url(../img/advertisement/advertisement-desk.png);
 
     @media screen and (min-resolution: 192dpi) {
       background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)),
-        url(/img/advertisement/advertisement-desk@2x.png);
+        url(../img/advertisement/advertisement-desk@2x.png);
     }
   }
 

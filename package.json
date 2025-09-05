@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/project-group-02/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "update-paths": "node update-paths.js",
+      "dev": "vite",
+      "build": "npm run update-paths && tsc && vite build"
+    }
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
